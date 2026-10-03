@@ -1,6 +1,5 @@
 # Rahul Prasad Yadav — Personal Portfolio
 
-An editorial portfolio inspired by `pantani.xyz` built for **Rahul Prasad Yadav** (Software Developer & AI/ML Engineer).
 
 ## 🚀 Key Highlights & Features
 
