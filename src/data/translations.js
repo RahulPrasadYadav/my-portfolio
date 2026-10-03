@@ -314,6 +314,7 @@ export const translations = {
     footer: {
       copyright: "© 2026 Rahul Prasad Yadav. All rights reserved.",
       printHint: "Press Cmd + P to save clean PDF",
+      liveVisitors: "Global Live Views",
     },
   },
 
@@ -632,6 +633,7 @@ export const translations = {
     footer: {
       copyright: "© 2026 राहुल प्रसाद यादव। सर्वाधिकार सुरक्षित।",
       printHint: "स्वच्छ PDF सहेजने के लिए Cmd + P दबाएं",
+      liveVisitors: "ग्लोबल लाइव व्यूज",
     },
   },
 
@@ -950,6 +952,7 @@ export const translations = {
     footer: {
       copyright: "© 2026 Rahul Prasad Yadav. Todos los derechos reservados.",
       printHint: "Presiona Cmd + P para guardar un PDF limpio",
+      liveVisitors: "Vistas Globales en Vivo",
     },
   },
 };

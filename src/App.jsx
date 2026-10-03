@@ -10,6 +10,7 @@ import ProjectsGrid from './components/ProjectsGrid';
 import Sidebar from './components/Sidebar';
 import ContactCta from './components/ContactCta';
 import SocialPreview from './components/SocialPreview';
+import VisitorCounter from './components/VisitorCounter';
 import Toast from './components/Toast';
 import { Eye } from 'lucide-react';
 
@@ -159,10 +160,15 @@ export default function App() {
         />
 
         <footer className="resume-footer">
-          <div>
+          <div className="footer-left">
             <span>{currentData.footer.copyright}</span>
           </div>
-          <div>
+
+          <div className="footer-center">
+            <VisitorCounter label={currentData.footer.liveVisitors || 'Global Views'} />
+          </div>
+
+          <div className="footer-right">
             <span>{currentData.footer.printHint}</span>
           </div>
         </footer>
